@@ -378,25 +378,25 @@ def main():
     time_quantum = get_random_time_quantum(processes)
     
     print("\n=== Comparing SRJF, Priority, HRRN, and Multilevel Queue with Feedback Scheduling ===")
-    
+    print("_______________________________________________________________________________________")
     print("\nRunning First Come First Serve (FCFS) Scheduling...")
     first_come_first_serve(processes[:])
-    
+    print("_______________________________________________________________________________________")
     print("\nRunning Round Robin (RR) Scheduling...")
     round_robin(processes[:], time_quantum)
-    
+    print("_______________________________________________________________________________________")
     print("\nRunning Shortest Job First (SJF) Scheduling...")
     shortest_job_first(processes[:])
-    
+    print("_______________________________________________________________________________________")
     print("\nRunning SRJF Scheduling...")
     shortest_remaining_job_first(processes[:])
-
+    print("_______________________________________________________________________________________")
     print("\nRunning Priority Scheduling...")
     priority_scheduling(processes[:])
-
+    print("_______________________________________________________________________________________")
     print("\nRunning HRRN Scheduling...")
     highest_response_ratio_next(processes[:])
-
+    print("_______________________________________________________________________________________")
     print("\nRunning Multilevel Queue with Feedback Scheduling...")
     multilevel_queue_feedback(processes[:])
 
