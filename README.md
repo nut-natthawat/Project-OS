@@ -1,7 +1,5 @@
 Website URL = https://project-os-1b06c.web.app
-# Project OS-1b06c
-
-## Features
+# Project OS
 
 1. **Input Options**
     - There are two input modes: **Random** and **Manual Input**.
